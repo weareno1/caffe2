@@ -121,7 +121,7 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL "Windows")
   endif()
 endif()
 
-find_package(CUDA 7.0 QUIET)
+find_package(CUDA 8.0.61 QUIET)
 find_cuda_helper_libs(curand)  # cmake 2.8.7 compartibility which doesn't search for curand
 
 if(NOT CUDA_FOUND)
