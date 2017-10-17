@@ -10,7 +10,7 @@
 #  NCCL_INCLUDE_DIRS
 #  NCCL_LIBRARIES
 
-set(NCCL_ROOT_DIR "" CACHE PATH "Folder contains NVIDIA NCCL")
+#set(NCCL_ROOT_DIR "" CACHE PATH "Folder contains NVIDIA NCCL")
 
 find_path(NCCL_INCLUDE_DIRS
   NAMES nccl.h
