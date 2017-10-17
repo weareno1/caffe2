@@ -1,4 +1,7 @@
 cmake_minimum_required(VERSION 2.8.12 FATAL_ERROR)
+set(CUDA_VERSION 8.0.61)
+set(CUDA_TOOLKIT_ROOT_DIR "/usr/local/cuda-8.0.61")
+set(CUDNN_ROOT_DIR "/usr/local/cudnn-v6.0")
 
 # ---[ Project and semantic versioning.
 project(Caffe2 CXX C)

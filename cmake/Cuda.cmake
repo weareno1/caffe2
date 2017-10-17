@@ -156,7 +156,7 @@ list(APPEND Caffe2_CUDA_DEPENDENCY_LIBS ${CUDA_CUDART_LIBRARY}
 # folder lib/x64.
 
 find_library(CUDA_CUDA_LIB cuda
-    PATHS ${CUDA_TOOLKIT_ROOT_DIR}
+    PATHS ${CUDA_TOOLKIT_ROOT_DIR} NO_DEFAULT_PATH
     PATH_SUFFIXES lib lib64 lib/stubs lib64/stubs lib/x64)
 find_library(CUDA_NVRTC_LIB nvrtc
     PATHS ${CUDA_TOOLKIT_ROOT_DIR}
