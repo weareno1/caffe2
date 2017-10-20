@@ -1,3 +1,21 @@
+## Installation
+### dependence
+0. almost all dependence are installed in /usr/local/; contact OP if some packages misssing
+1. `sudo yum install cmake3`
+
+### clone & install 
+1. `clone this repo` to CAFFE_ROOT_DIR
+2. `cd caffe2`
+3. `make -j16` 
+4. python -c 'import sys; sys.path.insert(0, "CAFFE_ROOT_DIR/build"); import caffe2 as c2; print c2.__file__'
+
+## merge caffe2/caffe (if necessary)
+1. `git check out master`
+2. `git pull https://github.com/caffe2/caffe2.git master`
+3. `resolve conflict`
+4. `git push origin master`
+
+
 # Caffe2
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache-2.0)
