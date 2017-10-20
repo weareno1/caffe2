@@ -7,7 +7,7 @@
 1. `clone this repo` to CAFFE_ROOT_DIR
 2. `cd caffe2`
 3. `make -j16` 
-4. python -c 'import sys; sys.path.insert(0, "CAFFE_ROOT_DIR/build"); import caffe2 as c2; print c2.__file__'
+4. `python -c 'import sys; sys.path.insert(0, "CAFFE_ROOT_DIR/build"); import caffe2 as c2; print c2.__file__'`
 
 ## merge caffe2/caffe (if necessary)
 1. `git check out master`
